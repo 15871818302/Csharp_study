@@ -10,6 +10,8 @@ namespace RectAngleApplication {
     string str = @"xxxxx"; // @可将一些转义字符看作是普通字符
     int a = 12;
     byte c = 10;
+    public const string str2 = "2222222"; // c# 中也是用 const 来定义常量
+    public int[] arr = new int[] {1,2,33,4,5,6,7,8,9};
     public void AcceptDetails() {
       length = 3.5;
       width = 4.5;
@@ -22,6 +24,10 @@ namespace RectAngleApplication {
       double d = 5300.6;
       int i;
       i = (int)d;
+      foreach (int item in arr)
+      {
+        System.Console.WriteLine(item);
+      }
       Console.WriteLine("Length: {0}", length);
       Console.WriteLine("Width: {0}", width);
       Console.WriteLine("Area: {0}", GetArea());
