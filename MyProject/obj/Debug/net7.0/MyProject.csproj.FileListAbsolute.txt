@@ -1,0 +1,15 @@
+D:\study\Csharp_study\MyProject\bin\Debug\net7.0\MyProject.exe
+D:\study\Csharp_study\MyProject\bin\Debug\net7.0\MyProject.deps.json
+D:\study\Csharp_study\MyProject\bin\Debug\net7.0\MyProject.runtimeconfig.json
+D:\study\Csharp_study\MyProject\bin\Debug\net7.0\MyProject.dll
+D:\study\Csharp_study\MyProject\bin\Debug\net7.0\MyProject.pdb
+D:\study\Csharp_study\MyProject\obj\Debug\net7.0\MyProject.csproj.AssemblyReference.cache
+D:\study\Csharp_study\MyProject\obj\Debug\net7.0\MyProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\study\Csharp_study\MyProject\obj\Debug\net7.0\MyProject.AssemblyInfoInputs.cache
+D:\study\Csharp_study\MyProject\obj\Debug\net7.0\MyProject.AssemblyInfo.cs
+D:\study\Csharp_study\MyProject\obj\Debug\net7.0\MyProject.csproj.CoreCompileInputs.cache
+D:\study\Csharp_study\MyProject\obj\Debug\net7.0\MyProject.dll
+D:\study\Csharp_study\MyProject\obj\Debug\net7.0\refint\MyProject.dll
+D:\study\Csharp_study\MyProject\obj\Debug\net7.0\MyProject.pdb
+D:\study\Csharp_study\MyProject\obj\Debug\net7.0\MyProject.genruntimeconfig.cache
+D:\study\Csharp_study\MyProject\obj\Debug\net7.0\ref\MyProject.dll
