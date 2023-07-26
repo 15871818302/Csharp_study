@@ -1,4 +1,5 @@
 using System;
+using System.Text;
 
 namespace RectAngleApplication {
   class RectAngle {
@@ -35,9 +36,35 @@ namespace RectAngleApplication {
     }
   }
 
+  // 结构跟类的用法很相似，但是结构中不能赋予初始值，而且结构是直接储存在栈中，内存占用小，访问快，但是功能没有类那么全
+  // 类是存储在堆中，占用内存较多，访问比较慢，功能很全
+  struct Books {
+    public string title;
+    public string author;
+    public string subject;
+    public int books_id;
+    public void setValues(string t, string a, string s, int id) {
+      title = t;
+      author = a;
+      subject = s;
+      books_id = id;
+    }
+    public void excute() {
+      Console.WriteLine("title: {0}", title);
+      Console.WriteLine("author: {0}", author);
+      Console.WriteLine("subject: {0}", subject);
+      Console.WriteLine("id: {0}", books_id);
+    }
+  }
   class ExcuteRectangle {
     static void Main() {
       RectAngle r = new RectAngle();
+      Books book1 = new Books(); // 声明类型
+      Books book2 = new Books();
+      book1.setValues("a", "b", "c", 11);
+      book2.setValues("q", "w", "e", 22);
+      book1.excute();
+      book2.excute();
       r.AcceptDetails();
       r.Display();
       Console.ReadLine();
