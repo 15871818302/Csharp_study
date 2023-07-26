@@ -56,17 +56,29 @@ namespace RectAngleApplication {
       Console.WriteLine("id: {0}", books_id);
     }
   }
+
+  public class EnumTest {
+    enum Day { Sun, Mon, Tue, Wed, Thu, Fri, Sat }
+    public void excuteDay() {
+      int x = (int)Day.Sun;
+      int y = (int)Day.Mon;
+      Console.WriteLine("x: {0}", x);
+      Console.WriteLine("y: {0}", y);
+    }
+  }
   class ExcuteRectangle {
     static void Main() {
       RectAngle r = new RectAngle();
       Books book1 = new Books(); // 声明类型
       Books book2 = new Books();
+      EnumTest testProgram = new EnumTest();
+      testProgram.excuteDay();
       book1.setValues("a", "b", "c", 11);
       book2.setValues("q", "w", "e", 22);
-      book1.excute();
-      book2.excute();
-      r.AcceptDetails();
-      r.Display();
+      // book1.excute();
+      // book2.excute();
+      // r.AcceptDetails();
+      // r.Display();
       Console.ReadLine();
     }
   }
